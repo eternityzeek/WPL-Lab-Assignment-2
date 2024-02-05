@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1be8f3; 
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.cv-wrapper {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+
+header {
+    background-color: #FFD700;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.photo-wrapper img {
+    border-radius: 50%;
+    max-width: 100px;
+    height: auto;
+}
+
+.info-wrapper {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.info-item {
+    margin-bottom: 10px;
+}
+
+.info-label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.education, .experience, .skills, .social-links {
+    margin-top: 20px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job-title {
+    font-weight: bold;
+}
+
+.responsibilities {
+    list-style: none;
+    padding: 0;
+}
+
+.social-links {
+    text-align: center;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #04476e;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.social-button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#share-container span {
+    display: block;
+    margin: 3rem auto;
+    font-size: 50px;
+    padding: 1rem;
+    margin: 1rem;
+    }
+    #share-buttons i {
+    font-size: 100px;
+    margin: 20px;
+    }
+    .facebook {
+    color: #3b5998;
+    }
+    .twitter {
+    color: #55acee;
+    }
+    .linkedin {
+    color: #0077b5;
+    }
+    .reddit {
+    color: #cb2027;
+    }
+    .whatsapp {
+    color: #25D366;
+    }
+    .telegram {
+    color: #229ED9;
+    }
+
+    .facebook, .twitter, .linkedin, .reddit, .whatsapp, .telegram  {
+    opacity: 0.6;
+    }
+    .facebook:hover, .twitter:hover, .linkedin:hover .reddit:hover, .whatsapp:hover, .telegram:hover {
+    opacity: 0.9;
+    }

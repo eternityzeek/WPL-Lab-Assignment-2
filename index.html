@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image.png" href="G:\DBMS CLASS\Web Development\CV Website\image.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Ahom Jawadur Rahman - Curriculum Vitae </title>
+</head>
+
+<body>
+
+    <div class="cv-wrapper">
+        <header>
+            <h1>Ahom Jawadur Rahman</h1>
+            <p>Software Engineer</p>
+        </header>
+
+        <section class="personal-info">
+            <div class="photo-wrapper">
+                <img src="your-photo.jpg" alt="Your Photo">
+            </div>
+            <div class="info-wrapper">
+                <div class="info-item">
+                    <span class="info-label">Name:</span>
+                    <span class="info-value">Ahom Jawadur Rahman</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Email:</span>
+                    <span class="info-value">ahomjawad268@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Phone:</span>
+                    <span class="info-value">(+880) 1881-914129</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Location:</span>
+                    <span class="info-value">Sylhet, Bangladesh</span>
+                </div>
+            </div>
+        </section>
+    </br>
+    </br>
+
+        <section id="education">
+            <div class="container">
+                <h2>Education</h2>
+                <div class="degree">
+                    <h3>Bachelor of Science in Software Engineering</h3>
+                    <p class="date">January 2022 - December 2025</p>
+                    <p>Metropolitan University</p>
+                    <h3>Higher Secondary Certificate (HSC)-2020</h3>
+                    <p class="date">GPA 5.00</p>
+                    <p>MC College Sylhet</p>
+                    <h3>Secondary School Certificate (SSC)-2018</h3>
+                    <p class="date">GPA 5.00</p>
+                    <p>Sylhet Govt. Pilot High School Sylhet</p>
+                    
+                </div>
+            </div>
+        </section>
+    </br>
+    </br>
+
+        <section id="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="job">
+                    <h3>Social Media Manager - ZertenX Esports</h3>
+                    <p class="date">January 2020 - July 2022</p>
+                </div>
+                <div class="job">
+                    <h3>Chief Editor - Invincible Esports</h3>
+                    <p class="date">January 2018 - Present</p>
+                </div>
+            </div>
+        </section>
+    </br>
+    </br>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML, CSS,</li>
+                    <li>C, C++, Java, Python</li>
+                    <li>Database Management (MySQL, MongoDB)</li>
+                    <li>Web Design</li>
+                    <li>Digital Content Creation</li>
+                    <li>Android App Development</li>
+                </ul>
+            </div>
+        </section>
+    </br>
+    </br>
+
+        <section class="social-links">
+            <h2>Social Media</h2>
+            <div class="button-wrapper">
+                <a href="https://twitter.com/eternityzeek" class="social-button">Twitter</a>
+                <a href="https://www.facebook.com/AhomJawadur/" class="social-button">Facebook</a>
+                <a href="https://github.com/eternityzeek" class="social-button">GitHub</a>
+            </div>
+        </section>
+    </div>
+</br>
+</br>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ahom Jawadur Rahman. All rights reserved.</p>
+        </div>
+
+        <div id="share-buttons">
+            <!-- facebook -->
+            <a class="facebook" target="blank"><i class="fab fa-facebook"></i></a>
+            <!-- twitter -->
+            <a class="twitter" target="blank"><i class="fab fa-twitter"></i></a>
+            <!-- linkedin -->
+            <a class="linkedin" target="blank"><i class="fab fa-linkedin"></i></a>
+            <!-- reddit -->
+            <a class="reddit" target="blank"><i class="fab fa-reddit"></i></a>
+            <!-- whatsapp -->
+            <a class="whatsapp" target="blank"><i class="fab fa-whatsapp"></i></a>
+            <!-- telegram -->
+            <a class="telegram" target="blank"><i class="fab fa-telegram"></i></a>
+            
+             </div>
+            
+             <script>
+                
+                const link = encodeURI('https://eternityzeek.github.io/Web-Development-/');
+                const msg = encodeURIComponent('Hey, I found this article');
+                const title = encodeURIComponent('Article or Post Title Here');
+                const fb = document.querySelector('.facebook');
+                fb.href = `https://www.facebook.com/share.php?u=${link}`;
+                const twitter = document.querySelector('.twitter');
+                twitter.href = `http://twitter.com/share?&url=${link}&text=${msg}&hashtags=javascript,programming`;
+                const linkedIn = document.querySelector('.linkedin');
+                linkedIn.href = `https://www.linkedin.com/sharing/share-offsite/?url=${link}`;
+                const reddit = document.querySelector('.reddit');
+                reddit.href = `http://www.reddit.com/submit?url=${link}&title=${title}`;
+                const whatsapp = document.querySelector('.whatsapp');
+                whatsapp.href = `https://api.whatsapp.com/send?text=${msg}: ${link}`;
+                const telegram = document.querySelector('.telegram');
+                telegram.href = `https://telegram.me/share/url?url=${link}&text=${msg}`;
+            
+            </script>
+            
+
+</footer>
+
+
+
+
+</body>
+</html>
